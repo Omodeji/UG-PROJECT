@@ -460,7 +460,116 @@ section:nth-child(even) {
   padding-right: 2rem;
 }
 
+/* Contact us page */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
 
+.location iframe {
+  width: 100%;
+}
+
+/* signin page  */
+.sign-in .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sign-in .row .images {
+  flex: 1 1 45rem;
+  width: 100%;
+}
+
+.sign-in .row form {
+  flex: 1 1 45rem;
+  background: #fff;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.sign-in .row form h3 {
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.sign-in .row form p {
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.sign-in .row form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+
+.sign-in .row form .btn {
+  padding: 1rem 3rem;
+}
+
+/*register page  */
+.register .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.register .row .images {
+  flex: 1 1 45rem;
+  width: 100%;
+}
+
+.register .row form {
+  flex: 1 1 45rem;
+  background: #fff;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.register .row form h3 {
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.register .row form p {
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.register .row form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+
+.register .row form .btn {
+  padding: 1rem 3rem;
+}
 
 /* small screen */
 @media (max-width: 991px) {
@@ -474,6 +583,14 @@ section:nth-child(even) {
 
   section {
     padding: 2rem;
+  }
+
+  .register .row .images {
+    display: none;
+  }
+
+  .sign-in .row .images {
+    display: none;
   }
 }
 
@@ -507,6 +624,14 @@ section:nth-child(even) {
     font-size: 2rem;
     display: block;
     margin: 2.5rem;
+  }
+
+  .register .row .images {
+    display: none;
+  }
+
+  .sign-in .row .images {
+    display: none;
   }
 }
 
